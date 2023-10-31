@@ -1,0 +1,23 @@
+Terminal: ctrl + Terminal
+cd - mudar dde diretório
+ls - lista arquivos e diretórios
+mkdir - criar diretórios
+pwd - listar o diretório atual
+rm - remover arquivos ou diretório
+echo - imprime na Tela  O conteudo
+cat - imprime o conteudo do arquivos
+touch - muda a data e hra do arquivos (criar)
+cp - copia arquivo  diretório
+mv - mover arquivo ou diretório (renomear)
+> - redirecionador de saída 
+>> - redirecionador de saída adicionando 
+|- redirecionar a saída de um comando com a entrada de outro comando 
+tac- lista o condeudo do arquivo invertido
+less- vizualizador ou leitor de arquivos
+head - cabeçalho do arquivo -por padrão 10 primeiras
+ -n e numeros de linhas que quer ver
+ tail -  lê cabeçalho de baixo para cima
+=========================================================
+ se não existir cria, se já existir, coloca no final
+ desafio 
+ cat -n /etc/services | head -n 200 | tail -n 101| less
